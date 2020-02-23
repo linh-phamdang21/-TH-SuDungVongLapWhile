@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button type="button" onclick="bai1()"> Bai 1 </button>
+<button type="button" onclick="bai2()"> Bai 2 </button>
+<script>
+    function bai1() {
+        let number = parseInt(prompt("Enter a number: "));
+        let total = 0;
+        while(number != -1) {
+            total += number;
+            alert(total);
+            number = parseInt(prompt("Enter a number: "));
+        }
+    }
+</script>
+</body>
+</html>
